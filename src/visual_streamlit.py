@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the saved model
-model_data = joblib.load('/models/random_forest_model_vis.pkl')
+model_data = joblib.load('./models/random_forest_model_vis.pkl')
 
 # Extract the model and other necessary data
 model = model_data['model']  
